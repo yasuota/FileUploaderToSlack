@@ -1,6 +1,9 @@
 # FileUploaderToSlack
 
-## A scripst that upload local file to your slack channel. 
+## Explanation
+
+This script executes ping -c 1 google.com on the local machine and uploads the output file to a Slack channel.
+You can specify whether to post it as a new comment or in a thread using the `threadflag`.
 
 If threadflag is False :
 
